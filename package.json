@@ -2,7 +2,7 @@
   "name": "paas-app",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx serve ."
+    "start": "serve -s . -l 8080"
   },
   "dependencies": {
     "serve": "^14.0.0"
